@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (assign, nonatomic) NSArray *arry;
+
 
 @end
 

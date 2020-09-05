@@ -2,6 +2,33 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:H5/H5.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AnalyzeSDWebImage/AnalyzeSDWebImage.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DesignPatterns/DesignPatterns.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:fmdb/fmdb.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MultiThreads/MultiThreads.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PreventCrashing/PreventCrashing.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NetworkCache/NetworkCache.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Performance/Performance.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Runloop/Runloop.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Lock/Lock.xcodeproj">
    </FileRef>
    <FileRef
