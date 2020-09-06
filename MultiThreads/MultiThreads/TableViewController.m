@@ -55,6 +55,7 @@
 - (void)setupData {
     self.dataArray = @[
         [KnowledgePoint instanceWithTitle:@"栅栏" :@"GCDBarrierVC"],
+        [KnowledgePoint instanceWithTitle:@"Operation" :@"OperationVC"],
     ];
 }
 
