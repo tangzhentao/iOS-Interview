@@ -22,6 +22,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2463644F2505D2EF00344DD4 /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		246364502505D2EF00344DD4 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		246364512505D2EF00344DD4 /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		246364522505D2EF00344DD4 /* SDWebImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		246364532505D2EF00344DD4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		246364542505D2EF00344DD4 /* SDImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		246364552505D2EF00344DD4 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		246364562505D2EF00344DD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		246364572505D2EF00344DD4 /* SDImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		246364582505D2EF00344DD4 /* SDWebImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		246364592505D2EF00344DD4 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		2463645A2505D2EF00344DD4 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
 		24F68F5524FBC70200C8F592 /* AnalyzeSDWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalyzeSDWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F68F5824FBC70200C8F592 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24F68F5924FBC70200C8F592 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,9 +69,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2463644E2505D2EF00344DD4 /* SDWebImage-2.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				2463644F2505D2EF00344DD4 /* SDWebImageDownloaderDelegate.h */,
+				246364512505D2EF00344DD4 /* SDWebImageManagerDelegate.h */,
+				246364502505D2EF00344DD4 /* UIImageView+WebCache.h */,
+				246364592505D2EF00344DD4 /* UIImageView+WebCache.m */,
+				246364582505D2EF00344DD4 /* SDWebImageManager.h */,
+				246364522505D2EF00344DD4 /* SDWebImageManager.m */,
+				246364542505D2EF00344DD4 /* SDImageCache.h */,
+				246364572505D2EF00344DD4 /* SDImageCache.m */,
+				2463645A2505D2EF00344DD4 /* SDWebImageDownloader.h */,
+				246364552505D2EF00344DD4 /* SDWebImageDownloader.m */,
+				246364562505D2EF00344DD4 /* README.md */,
+				246364532505D2EF00344DD4 /* LICENSE */,
+			);
+			path = "SDWebImage-2.0.0";
+			sourceTree = "<group>";
+		};
 		24F68F4C24FBC70100C8F592 = {
 			isa = PBXGroup;
 			children = (
+				2463644E2505D2EF00344DD4 /* SDWebImage-2.0.0 */,
 				24F68F7124FBC75F00C8F592 /* SDWebImage-1.0.0 */,
 				24F68F5724FBC70200C8F592 /* AnalyzeSDWebImage */,
 				24F68F5624FBC70200C8F592 /* Products */,
@@ -94,17 +126,17 @@
 			isa = PBXGroup;
 			children = (
 				24F68F7224FBC75F00C8F592 /* SDWebImageDownloaderDelegate.h */,
+				24F68F7424FBC75F00C8F592 /* SDWebImageManagerDelegate.h */,
 				24F68F7324FBC75F00C8F592 /* UIImageView+WebCache.h */,
 				24F68F7C24FBC75F00C8F592 /* UIImageView+WebCache.m */,
-				24F68F7424FBC75F00C8F592 /* SDWebImageManagerDelegate.h */,
-				24F68F7624FBC75F00C8F592 /* LICENSE */,
-				24F68F7924FBC75F00C8F592 /* README.md */,
-				24F68F7724FBC75F00C8F592 /* SDImageCache.h */,
-				24F68F7A24FBC75F00C8F592 /* SDImageCache.m */,
 				24F68F7B24FBC75F00C8F592 /* SDWebImageManager.h */,
 				24F68F7524FBC75F00C8F592 /* SDWebImageManager.m */,
+				24F68F7724FBC75F00C8F592 /* SDImageCache.h */,
+				24F68F7A24FBC75F00C8F592 /* SDImageCache.m */,
 				24F68F7D24FBC75F00C8F592 /* SDWebImageDownloader.h */,
 				24F68F7824FBC75F00C8F592 /* SDWebImageDownloader.m */,
+				24F68F7624FBC75F00C8F592 /* LICENSE */,
+				24F68F7924FBC75F00C8F592 /* README.md */,
 			);
 			path = "SDWebImage-1.0.0";
 			sourceTree = "<group>";

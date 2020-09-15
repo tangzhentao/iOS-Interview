@@ -137,12 +137,12 @@
 			isa = PBXGroup;
 			children = (
 				24F68F0C24F74D1E00C8F592 /* FMDatabase.h */,
+				24F68F1124F74D1E00C8F592 /* FMDatabase.m */,
+				24F68F1224F74D1E00C8F592 /* FMDatabaseQueue.h */,
 				24F68F0D24F74D1E00C8F592 /* FMDatabaseQueue.m */,
 				24F68F0E24F74D1E00C8F592 /* FMResultSet.h */,
 				24F68F0F24F74D1E00C8F592 /* FMDatabasePool.h */,
 				24F68F1024F74D1E00C8F592 /* FMDatabaseAdditions.m */,
-				24F68F1124F74D1E00C8F592 /* FMDatabase.m */,
-				24F68F1224F74D1E00C8F592 /* FMDatabaseQueue.h */,
 				24F68F1324F74D1E00C8F592 /* FMDB.h */,
 				24F68F1424F74D1E00C8F592 /* FMDatabaseAdditions.h */,
 				24F68F1524F74D1E00C8F592 /* FMDatabasePool.m */,

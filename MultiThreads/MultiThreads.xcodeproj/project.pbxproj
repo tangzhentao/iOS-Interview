@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24636443250503F400344DD4 /* ThreadSafeArrayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24636442250503F400344DD4 /* ThreadSafeArrayVC.m */; };
+		2463644625050A0100344DD4 /* OriginalArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2463644525050A0100344DD4 /* OriginalArray.m */; };
+		246364492505110300344DD4 /* ArrayWithLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 246364482505110300344DD4 /* ArrayWithLock.m */; };
+		2463644C2505140400344DD4 /* ArrayWithGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2463644B2505140400344DD4 /* ArrayWithGCD.m */; };
 		24675A7125039FC5003AEA47 /* OperationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24675A7025039FC5003AEA47 /* OperationVC.m */; };
 		24675A752503A7F8003AEA47 /* MyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24675A742503A7F8003AEA47 /* MyOperation.m */; };
 		24F3CC2825032D73008F087A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F3CC2725032D73008F087A /* TableViewController.m */; };
@@ -21,6 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24636441250503F400344DD4 /* ThreadSafeArrayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadSafeArrayVC.h; sourceTree = "<group>"; };
+		24636442250503F400344DD4 /* ThreadSafeArrayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadSafeArrayVC.m; sourceTree = "<group>"; };
+		2463644425050A0100344DD4 /* OriginalArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginalArray.h; sourceTree = "<group>"; };
+		2463644525050A0100344DD4 /* OriginalArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginalArray.m; sourceTree = "<group>"; };
+		246364472505110300344DD4 /* ArrayWithLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayWithLock.h; sourceTree = "<group>"; };
+		246364482505110300344DD4 /* ArrayWithLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayWithLock.m; sourceTree = "<group>"; };
+		2463644A2505140400344DD4 /* ArrayWithGCD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayWithGCD.h; sourceTree = "<group>"; };
+		2463644B2505140400344DD4 /* ArrayWithGCD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayWithGCD.m; sourceTree = "<group>"; };
 		24675A6F25039FC5003AEA47 /* OperationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationVC.h; sourceTree = "<group>"; };
 		24675A7025039FC5003AEA47 /* OperationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationVC.m; sourceTree = "<group>"; };
 		24675A732503A7F8003AEA47 /* MyOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOperation.h; sourceTree = "<group>"; };
@@ -54,6 +66,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		246364402505038C00344DD4 /* ThreadSafeArray */ = {
+			isa = PBXGroup;
+			children = (
+				24636441250503F400344DD4 /* ThreadSafeArrayVC.h */,
+				24636442250503F400344DD4 /* ThreadSafeArrayVC.m */,
+				2463644425050A0100344DD4 /* OriginalArray.h */,
+				2463644525050A0100344DD4 /* OriginalArray.m */,
+				246364472505110300344DD4 /* ArrayWithLock.h */,
+				246364482505110300344DD4 /* ArrayWithLock.m */,
+				2463644A2505140400344DD4 /* ArrayWithGCD.h */,
+				2463644B2505140400344DD4 /* ArrayWithGCD.m */,
+			);
+			path = ThreadSafeArray;
+			sourceTree = "<group>";
+		};
 		24675A722503A7D7003AEA47 /* Operation */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +119,7 @@
 				24F3CC2725032D73008F087A /* TableViewController.m */,
 				24F3CC29250330BC008F087A /* GCDBarrierVC.h */,
 				24F3CC2A250330BC008F087A /* GCDBarrierVC.m */,
+				246364402505038C00344DD4 /* ThreadSafeArray */,
 				24675A722503A7D7003AEA47 /* Operation */,
 				24F3CC2C2503318F008F087A /* JKTool.h */,
 				24F3CC2D2503318F008F087A /* JKTool.m */,
@@ -174,10 +202,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2463644625050A0100344DD4 /* OriginalArray.m in Sources */,
+				246364492505110300344DD4 /* ArrayWithLock.m in Sources */,
 				24675A7125039FC5003AEA47 /* OperationVC.m in Sources */,
 				24F68EC724F6997100C8F592 /* ViewController.m in Sources */,
 				24F68EC124F6997100C8F592 /* AppDelegate.m in Sources */,
 				24F3CC2E2503318F008F087A /* JKTool.m in Sources */,
+				2463644C2505140400344DD4 /* ArrayWithGCD.m in Sources */,
+				24636443250503F400344DD4 /* ThreadSafeArrayVC.m in Sources */,
 				24F68ED224F6997300C8F592 /* main.m in Sources */,
 				24F3CC2825032D73008F087A /* TableViewController.m in Sources */,
 				24F3CC2B250330BC008F087A /* GCDBarrierVC.m in Sources */,

@@ -56,6 +56,7 @@
     self.dataArray = @[
         [KnowledgePoint instanceWithTitle:@"栅栏" :@"GCDBarrierVC"],
         [KnowledgePoint instanceWithTitle:@"Operation" :@"OperationVC"],
+        [KnowledgePoint instanceWithTitle:@"线程安全的数组" :@"ThreadSafeArrayVC"],
     ];
 }
 

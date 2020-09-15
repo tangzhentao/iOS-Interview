@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Runtime/Runtime.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Autorelease/Autorelease.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:KVO/KVO.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:H5/H5.xcodeproj">
    </FileRef>
    <FileRef
